@@ -1,21 +1,52 @@
 .bgimage {
-    height:100vh;
+    height: 100vh;
     background: url('images/LiubovSH.jpg');
-    background-size:cover;
-    position:relative;
+    background-size: cover;
+    position: relative;
 }
-/* text css above hero image*/
+
+/* text css above hero image */
 .hero_title {
     font-size: 4.5rem;
 }
+
 .hero_desc {
     font-size: 2rem;
 }
+
 .hero_text {
-    text-align:justify;
+    text-align: center; /* Center-align text */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+.image_about {
+    scale:50%;
+}
+.row mt-6 {
+    position: absolute;
+}
+
+@media (max-width: 768px) {
+    .hero_title {
+        font-size: 3rem;
+    }
+
+    .hero_desc {
+        font-size: 1.5rem;
+    }
+    
+    .hero_text {
+        font-size: 2rem;
+    }
+}
+
+.navbar-brand {
+    font-size: 3rem;
+}
+
+.nav-link {
+    font-size: 3rem;
 }
